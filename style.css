@@ -1,0 +1,148 @@
+/*colors and Fonts*/
+
+body {
+	background-color: rgb(240, 240, 240); ; 
+	color: rgb(30, 30, 30);
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    font-weight:lighter;
+    
+}
+   
+
+h1, h2{
+	font-family:'Roboto Slab', serif;
+	   
+}
+
+
+          
+ h1 {
+	font-size:32px;
+	color: 	#4682B4;
+	font-weight: 700;
+	font-style: italic;
+	}
+
+h2 {
+	color: #556B2F;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+
+    
+ a { color:#6B72E1;
+text-decoration: none;
+font-weight: bold;
+transition: color 0,7s linear;
+
+}
+
+a:hover{
+	color: black;
+}
+
+/* cCustom design with class*/
+
+.container{
+width: 700px;
+margin: 40px auto; 
+}
+
+.card-white{
+	background-color:white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba (0,0,0,1);
+	margin: 25px 0px;
+	border-radius: 4px;
+	text-align: center;
+
+}
+		
+.card-white:hover {
+	background-color: rgb(50,50,50 ) ;
+}
+.card-white:hover p{
+	color: white;
+}
+
+
+.img-circle{ 
+    border-radius: 50%
+	 }
+
+.btn-blue{
+background-color:#6B72E1 ;
+color: white;
+padding: 10px 15px;
+border-radius: 4px; 
+}
+
+.btn-blue:hover{ 
+color: white;
+background-color:black;
+ }
+
+ .list-inline{
+ 	list-style: none;
+ 	padding-left: 0px;
+}
+
+.list-inline li{ 
+display: inline;
+padding: 10px;
+}
+
+.list-inline i{
+font-size: 50px;
+color: rgb(230?230?230);
+}
+
+#intro p{
+margin-bottom: 40px;
+}
+
+#intro:hover{
+background-color: white;
+box-shadow:0px 0px 40px;
+}
+#intro p{
+	color: black;
+}
+
+@media (max-width: 950px) {
+	.container{
+	width: 700px;
+	margin: 0 auto;
+	}
+}
+
+@media (max-width: 720px) {
+	.container{
+		background-color: r;
+		width: 500px;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 530px) {
+	.container{
+		background-color: red;
+		width: 300px;
+		margin: 0 auto;}
+	
+	.card-white:hover {
+		background-color: white;}
+    
+    .card-white:hover p{
+    	color:black;}
+}
+
+
+
+
+
+
+
